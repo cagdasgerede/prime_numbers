@@ -3,6 +3,10 @@ Compares performance of different prime number checking algorithms.
 1) Naive iterative prime number checking. (10,000 unit cost)
 2) Prime number checking only odd numbers until the square root (1 unit cost)
 
+	O ( N ) vs. O ( sqrt( N ) )
+
 Compares performance different algorithms for computing prime numbers until a given number:
 1) Checking primeness for each number till a given number (1,600 unit cost)
 2) Using sieve algorithm to filter out all non-primes. (1 unit cost)
+
+	O ( N sqrt(N) ) vs. O ( N log log sqrt(N) )
